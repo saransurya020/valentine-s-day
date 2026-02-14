@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="memories-body">
+    <div class="floating-hearts" id="hearts-container"></div>
+
+    <div class="memories-header">
+        <h1>Click on an image to see it clearly.</h1>
+    </div>
+
+    <div class="memories-container" id="board">
+        <!-- Grid Polaroids -->
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="4.jpg" alt="Memory">
+            </div>
+            <div class="caption">First Hello 👋</div>
+        </div>
+
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="1.jpg" alt="Memory">
+            </div>
+            <div class="caption">Silly Times 🤪</div>
+        </div>
+
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="2.jpg" alt="Memory">
+            </div>
+            <div class="caption">Sweet Dates ☕</div>
+        </div>
+
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Memory">
+            </div>
+            <div class="caption">Us Forever 💑</div>
+        </div>
+
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="3.jpg" alt="Memory">
+            </div>
+            <div class="caption">Just Because 💖</div>
+        </div>
+
+        <div class="polaroid" onclick="openMemory(this)">
+            <div class="inner">
+                <img src="5.jpg" alt="Memory">
+            </div>
+            <div class="caption">Hugs & Kisses</div>
+        </div>
+    </div>
+
+
+
+    <a href="index.html?menu=true" class="back-btn-float">Back to Menu</a>
+
+    <script src="memories.js"></script>
+</body>
+
+</html>
